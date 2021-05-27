@@ -1,8 +1,8 @@
 {
-  "name": "ngx-markdown",
+  "name": "@kensingtontech/ngx-markdown",
   "version": "12.0.1",
   "description": "Angular library that uses marked to parse markdown to html combined with Prism.js for synthax highlights",
-  "homepage": "https://github.com/jfcere/ngx-markdown",
+  "homepage": "https://github.com/KensingtonTech/ngx-markdown",
   "license": "MIT",
   "author": {
     "name": "Jean-Francois Cere",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jfcere/ngx-markdown"
+    "url": "https://github.com/KensingtonTech/ngx-markdown.git"
   },
   "keywords": [
     "angular",
@@ -25,18 +25,17 @@
     "emoji"
   ],
   "dependencies": {
-    "@types/marked": "^2.0.0",
-    "emoji-toolkit": "^6.5.0",
     "katex": "^0.13.0",
-    "marked": "^2.0.0",
     "prismjs": "^1.23.0",
-    "tslib": "^2.1.0"
+    "tslib": "^2.1.0",
+    "@types/marked": "^2.0.3",
   },
   "peerDependencies": {
     "@angular/common": "^12.0.0",
     "@angular/core": "^12.0.0",
     "@angular/platform-browser": "^12.0.0",
     "rxjs": "^6.6.0",
-    "zone.js": "^0.10.2 || ^0.11.4"
+    "marked": "^2.0.5",
+    "emoji-toolkit": "^6.5.0"
   }
 }
